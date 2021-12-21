@@ -1,4 +1,4 @@
-package switch_case;
+package practices;
 
 import java.util.Scanner;
 

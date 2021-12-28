@@ -1,4 +1,4 @@
-package practices.classes;
+package practices.classes.boxmatch;
 
 public class Fighter {
     String name;

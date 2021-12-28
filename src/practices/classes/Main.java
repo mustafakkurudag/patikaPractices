@@ -22,17 +22,23 @@ class Student {
     void addBulkExamNote(int math, int mathViva, int physics, int physcisViva, int chemistry, int chemistryViva) {
         if (math >= 0 && math <= 100) {
             math = (int)(math * 0.8 + mathViva * 0.2);
+
             this.math.note = math;
+            this.math.vivaNote = mathViva;
         }
 
         if (physics >= 0 && physics <= 100) {
             physics = (int)(physics * 0.8 + physcisViva * 0.2);
+
             this.physics.note = physics;
+            this.physics.vivaNote = physcisViva;
         }
 
         if (chemistry >= 0 && chemistry <= 100) {
             chemistry = (int)(chemistry * 0.8 + chemistryViva * 0.2);
+
             this.chemistry.note = chemistry;
+            this.chemistry.vivaNote = chemistryViva;
         }
     }
 
